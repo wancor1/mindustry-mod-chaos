@@ -1,0 +1,33 @@
+type: ConsumeGenerator
+name: "01Generator"
+description: "Generates energy"
+
+size: 1
+health:1
+
+hasPower: true
+hasLiquids: false
+hasItems: true
+
+itemCapacity: 16
+itemDuration: 60
+powerProduction: 166.666666666667
+heating: 0.01
+ambientSound: steam
+ambientSoundVolume: 0.1
+
+consumes: {
+  items: {
+   items: [
+    pyratite/1
+    ]
+  }
+}
+
+requirements: [
+  copper/200
+]
+
+category: power
+researchCostMultiplier: 0.25
+research: thorium-reactor

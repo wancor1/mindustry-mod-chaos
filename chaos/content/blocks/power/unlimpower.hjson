@@ -1,0 +1,35 @@
+type: ConsumeGenerator
+name: "unlimited Generator"
+description: "Generates unlimited energy"
+size: 5
+health:50000
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 16
+liquidCapacity: 1024
+ambientSound: steam
+ambientSoundVolume: 0.1
+itemDuration: 60
+powerProduction: 16666.66666666667
+consumes: {
+ liquid: cryofluid/0.01666666667
+  items: {
+   items: [
+    pyratite/3
+    ]
+  }
+}
+requirements: [
+  metaglass/20000
+  silicon/25000
+  titanium/30000
+  lead/20000
+  graphite/20000
+  copper/20000
+  thorium/15000
+  plastanium/10000
+]
+category: power
+researchCostMultiplier: 0.0005
+research: unlimpoweri

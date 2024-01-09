@@ -1,0 +1,8 @@
+name: "unlimited-energy"
+displayName: "unlimited energy"
+author: wanco
+description: "add unlimited energy."
+version: "1.0"
+minGameVersion: "136"
+dependencies: [ ]
+hidden: false

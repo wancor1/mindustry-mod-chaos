@@ -1,0 +1,14 @@
+type: battery
+name: "unlimited battery"
+description: "power battery"
+size: 10
+health: 1480
+category: power
+requirements: [
+    lead/3000
+    silicon/10000
+    titanium/1200
+]
+powerBuffered: 10000000
+researchCostMultiplier: 0.005
+research: power-node
