@@ -1,8 +1,0 @@
-name: "chaos-contents"
-displayName: "chaos contents"
-author: wanco
-description: "chaos-contents."
-version: "1.2.0"
-minGameVersion: "136"
-dependencies: [ ]
-hidden: false
