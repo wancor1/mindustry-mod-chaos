@@ -1,0 +1,53 @@
+//Provided by Additional Content 
+type: PowerTurret
+name: "normalturret."
+description: "chaos."
+health: 10000
+size: 1
+reload: 2
+shootSound: laser
+cooldown: 0.01
+heatColor: ab3400
+range: 750
+recoilAmount: 2
+restitution: 0.03
+chargeTime: 0
+hasPower: true
+chargeEffects: 3
+chargeEffect: lancerLaserCharge
+powerUse: 4
+shots: 3
+rotateSpeed: 20
+ammoTypes: {
+           titanium: {
+           type: LaserBulletType
+           pierce: true
+           damage: 250
+           width: 9
+           lifetime: 18
+           length: 100
+           shootEffect: lancerLaserChargeBegin
+           smokeEffect: none
+           sideAngle: 90
+           sideLength: 90
+           sideWidth: 2
+           }
+}
+shootType: {
+           type: LaserBulletType
+           pierce: true
+           damage: 250
+           width: 9
+           lifetime: 18
+           length: 755
+           shootEffect: lancerLaserChargeBegin
+           smokeEffect: none
+           sideAngle: 90
+           sideLength: 90
+           sideWidth: 2
+}
+requirements:[
+  copper/50
+]
+research: arc
+category: turret

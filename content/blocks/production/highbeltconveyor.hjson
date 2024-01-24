@@ -1,0 +1,16 @@
+type: Conveyor
+name: "water chaet Conveyor"
+health: 100
+speed: 32
+requiresWater: true
+displayedSpeed: 999
+requirements: [
+  metaglass/1
+  copper/1
+  lead/2
+  titanium/1
+  thorium/1
+  plastanium/1
+]
+category: distribution
+research: titanium-conveyor
