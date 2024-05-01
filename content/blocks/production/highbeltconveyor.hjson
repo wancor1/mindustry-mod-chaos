@@ -10,7 +10,6 @@ requirements: [
   lead/2
   titanium/1
   thorium/1
-  plastanium/1
 ]
 category: distribution
 research: titanium-conveyor
